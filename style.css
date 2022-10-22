@@ -1,8 +1,10 @@
 h1{
     font-family: "avenir";
-    font-size: 30px;
+    font-size: 36px;
     letter-spacing: 5px;
     text-transform: uppercase;
+    margin-left: 30px;
+    margin-top: 30px;
 }
 
 #footer{
@@ -25,4 +27,10 @@ h1{
     margin-right: 10px;
     margin: 30px;
     letter-spacing: 3px;
+    font-family: "Garamond", "Miller", "Serif";
 }
+
+a:link{text-decoration: none; color: #000000; margin: 30px;/*link that hasn't been visited*/}
+a:visited{text-decoration: none; color: #654a4a; margin: 30px;/*once page is visited*/}
+a:active{text-decoration: underline; color: #571414; margin: 30px;/*link that is selected*/}
+a:hover{text-decoration: underline; color: #571414; margin: 30px;/*when mouse is over link*/}
