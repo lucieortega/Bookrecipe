@@ -16,6 +16,13 @@ h1{
     bottom: 0%;
     left: 0%;
     position: fixed;
+}
 
-
+#navigation{
+    font-size: 18px;
+    text-transform: lowercase;
+    text-align: right;
+    margin-right: 10px;
+    margin: 30px;
+    letter-spacing: 3px;
 }
