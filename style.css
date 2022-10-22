@@ -1,4 +1,6 @@
 h1{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "avenir";
     font-size: 30px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
 }
