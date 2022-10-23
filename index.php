@@ -39,13 +39,13 @@
 <div class="imgContainer">
         <!-- <div class="img-with-text"> -->
             <img src="images/healthy_lunch.jpg" alt="Photo of salad">
-                <p>Easy healthy lunch</p>
+            <p>Easy healthy lunch</p>
                 </div>
 
 <div class="imgContainer">
         <!-- <div class="img-with-text"> -->
             <img src="images/dinner.jpg" alt="Photo of meatballs">
-                <p>Italian for dinner</p>
+            <p>Italian for dinner</p>
                 </div>
 </div>
 
