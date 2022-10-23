@@ -14,19 +14,41 @@
     <div id = "header">
         <h1>Join the Community</h1>
     </div>
+</head>
+
+<h6>...and gain a family</h6>       
+
+
+
+
+
+
 <body>
 
 <?php
         include "navigation.php";
-        include "footer.php";
+        // include "footer.php";
     
     ?>
-</body>
- </head>
-
-<body>
+    
    <a href="join_us.php">
-       <img src="images/foodlogo.jpeg" width="50px" height="50px" alt="logofood"/>
+       <!-- <img src="images/foodlogo.jpeg" width="50px" height="50px" alt="logofood"/> -->
+       <!-- <img src="images/cooking.jpg" alt="cooking together"/> -->
+       
+       <div class="image123">
+    <div class="imgContainer">
+            <img src="images/cooking.jpg" alt="cooking together">
+</div>
+
+<div class="imgContainer">
+            <img src="images/jar_salad.jpg" alt="Salad in a jar">
+                </div>
+
+<div class="imgContainer">
+            <img src="images/young_cook.jpg" alt="Photo of young child cooking">
+                </div>
+</div>
+
        </a>
    <div class="inner contact">
 <!-- Form Area -->

@@ -9,41 +9,80 @@ h1{
 
 h2{
     font-family: "avenir";
-    font-size: 38px;
-    letter-spacing: 5px;
+    font-size: 24px;
+    letter-spacing: 9px;
     text-transform: uppercase;
-    margin-left: 30px;
+    margin-left: 100px;
     margin-top: 30px;
+    color:#c74343;
 }
 
 h3{
     font-family: "avenir";
-    font-size: 40px;
-    letter-spacing: 5px;
+    font-size: 24px;
+    letter-spacing: 6.5px;
     text-transform: uppercase;
-    margin-left: 30px;
+    margin-left: 100px;
     margin-top: 30px;
+    color:#c74343;
 }
-p {
+
+h4{
+    font-family: "avenir";
+    font-size: 24px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    margin-left: 100px;
+    margin-top: 30px;
+    color:#c74343;
+}
+
+h5{
+    font-family: "avenir";
+    font-size: 24px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-left: 100px;
+    margin-top: 30px;
+    color:#c74343;
+}
+
+h6{
+    font-family: "avenir";
+    font-size: 24px;
+    letter-spacing: 8.2px;
+    text-transform: uppercase;
+    margin-left: 100px;
+    margin-top: 30px;
+    color:#c74343;
+}
+
+
+p#two {
     color: grey;
-      font-family: 'avenir';
-      font-size: 0.9rem;
+    font-family: "avenir";
+    font-size: 1.1rem;
     margin-inline-start: 9rem;
     line-height: 2;
     text-align: justify;
     margin-block-end: 3rem;
     text-justify: inter-word;
     width: 40rem;
-    }
-  .sizeprints {
+}
   
-    width: 330px
-  }
-  .ramen {
+.sizeprints {
+  width: 330px
+}
+  
+.img2 {
     padding: 2rem;
     border-radius: 2rem;
     width: 400px;
-  }
+    height: 500px;
+    margin-left: 30px;
+    flex-basis: 40%;
+}
+
 #footer{
     background-color: rgb(0, 0, 0);
     width: 100%;
@@ -86,9 +125,61 @@ img{
 
 .imgContainer {
     display: inline-block;
-    padding: 60px;
     font-family: "avenir";
+    font-weight: medium;
     letter-spacing: 3px;
+    padding: 60px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=email], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type=submit] {
+    width: 50%;
+    background-color: #571414;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+textarea[name=message], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type=submit]:hover {
+    background-color: #303c3b;
 }
 
 
