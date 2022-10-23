@@ -16,7 +16,7 @@
     </div>
 </head>
 
-<h6>...and gain a family</h6>       
+<h3>...and gain a family</h3>       
 
 
 
