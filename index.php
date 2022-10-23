@@ -27,8 +27,12 @@
    <?php
         include "navigation.php";
         include "footer.php";
-    
     ?>
+<div class="img-with-text">
+   <img src="images/pancakes.jpg" alt="Photo of pancakes">
+   <p>Breakfast of Champions</p>
+
+</div>
 
 </body>
 </html>

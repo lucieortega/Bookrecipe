@@ -7,6 +7,24 @@ h1{
     margin-top: 30px;
 }
 
+h2{
+    font-family: "avenir";
+    font-size: 38px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+h3{
+    font-family: "avenir";
+    font-size: 40px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
 #footer{
     background-color: rgb(0, 0, 0);
     width: 100%;
@@ -29,6 +47,24 @@ h1{
     letter-spacing: 3px;
     font-family: "Garamond", "Miller", "Serif";
 }
+
+img{
+    border:#000000 1px solid;
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.img-with-text {
+    text-align: justify;
+    width: [width of img];
+    letter-spacing: 3px;
+    font-family: "avenir";
+    margin-left: 30px;
+    font-weight: medium;
+}
+
 
 a:link{text-decoration: none; color: #000000; margin: 30px;/*link that hasn't been visited*/}
 a:visited{text-decoration: none; color: #654a4a; margin: 30px;/*once page is visited*/}
