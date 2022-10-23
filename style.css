@@ -56,13 +56,20 @@ img{
     margin-top: 50px;
 }
 
-.img-with-text {
+/* .img-with-text {
     text-align: justify;
     width: [width of img];
     letter-spacing: 3px;
     font-family: "avenir";
     margin-left: 30px;
     font-weight: medium;
+} */
+
+.imgContainer {
+    display: inline-block;
+    padding: 60px;
+    font-family: "avenir";
+    letter-spacing: 3px;
 }
 
 
