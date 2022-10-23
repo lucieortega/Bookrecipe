@@ -12,12 +12,15 @@
 
 <head>
     <div id = "header">
-        <h1>Share your Cooking Journey</h1>
+        <h1>Share your Journey</h1>
     </div>
 
 
 
+
+
 </head>
+<h5>...and your cooking tips</h5>
 
 
 
