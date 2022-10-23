@@ -19,8 +19,8 @@
 
 </head>
 
-<h3>It started with a love story </h3>
-            <h2>Our story</h2>
+<h3>With a love story</h3>
+            
 
             <img class="ramen" src="ramen.jpeg" style='float: left;' alt="ramen bowl"/>
 <body>
