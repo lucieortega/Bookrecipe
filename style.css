@@ -19,15 +19,16 @@ h2{
 h3{
     font-family: "avenir";
     font-size: 24px;
-    letter-spacing: 5px;
+    letter-spacing: 6.5px;
     text-transform: uppercase;
-    margin-left: 30px;
+    margin-left: 100px;
     margin-top: 30px;
+    color:#c74343;
 }
-p.one {
+p#two {
     color: grey;
-    font-family: 'avenir';
-    font-size: 0.9rem;
+    font-family: "avenir";
+    font-size: 1.1rem;
     margin-inline-start: 9rem;
     line-height: 2;
     text-align: justify;
@@ -40,12 +41,13 @@ p.one {
   width: 330px
 }
   
-.ramen {
+.img2 {
     padding: 2rem;
     border-radius: 2rem;
     width: 400px;
     height: 500px;
     margin-left: 30px;
+    flex-basis: 40%;
 }
 
 #footer{
@@ -96,6 +98,11 @@ img{
     padding: 60px;
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
