@@ -27,7 +27,7 @@
     
     ?>
 </body>
-            <img class="ramen" src="ramen.jpeg" style='float: left;' alt="ramen bowl"/>
+            <img class="ramen" src="images/ramen.jpeg" style='float: left;' alt="ramen bowl"/>
            
 <p> We all have that one dish that excites our palates and makes us pine for those special memories 
        with Mom, Dad, Grandma or maybe a favorite aunt who created these delicious, comforting dishes. 

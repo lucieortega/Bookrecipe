@@ -26,7 +26,7 @@
 
 <body>
    <a href="join_us.php">
-       <img src="foodlogo.jpeg" width="200px" height="200px" alt="logofood"/>
+       <img src="images/foodlogo.jpeg" width="50px" height="50px" alt="logofood"/>
        </a>
    <div class="inner contact">
 <!-- Form Area -->
