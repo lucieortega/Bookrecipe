@@ -1,6 +1,12 @@
 <?php
  include_once 'db_connect.php'; 
 
+
+ $sql = "SELECT * FROM Recipes";
+ $result = mysqli_query($conn, $sql);
+
+ 
+
 ?>
  
 
