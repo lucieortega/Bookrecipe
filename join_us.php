@@ -18,11 +18,6 @@
 
 <h3>...and gain a family</h3>       
 
-
-
-
-
-
 <body>
 
 <?php
