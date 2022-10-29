@@ -20,29 +20,25 @@
 
 <?php
 
- 
 
-function getRecipeDetailsFromDatabase() {
+function getRecipeDetailsFromDatabase () {
     include_once 'db_connect.php';
-    $sql = 'SELECT id, title, name_of_dish FROM Recipes';
-    mysql_select_db('book_recipe');
-    $retval = mysql_query( $sql, $conn ); 
+    $sql = 'SELECT id, title, name_of_dish FROM Recipes'; 
 
-if(! $retval ) {
-   die('Could not get data: ' . mysql_error());
-}
 
-while($row = mysql_fetch_assoc($retval)) {
-   echo "EMP ID :{$row['emp_id']}  <br> ".
-      "EMP NAME : {$row['emp_name']} <br> ".
-      "EMP SALARY : {$row['emp_salary']} <br> ".
+while($row = mysqli_fetch_assoc($retval)) { 
+   echo "id :{$row['id']}  <br> ".
+      "title : {$row['title']} <br> ".
+      "name of dish : {$row['name_of_dish']} <br> ".
       "--------------------------------<br>";
-}
+} 
 
 echo "Fetched data successfully\n";
 
-mysql_close($conn); 
+mysqli_close($conn); 
 
+
+}
 
 ?>
 
