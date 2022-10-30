@@ -25,12 +25,24 @@
 
 
 <body>
+
+
     
    <?php
         include "navigation.php";
         include "footer.php";
     
     ?>
+
+<script>
+const textNode = document.createTextNode("My blog - Breakfast of Champions");
+document.body.appendChild(textNode).style.color = "Red"; 
+document.body.appendChild(textNode).style.fontFamily = "Montserrat"
+document.body.appendChild(textNode).style.fontSize = "18"; 
+</script>
+
+
+
 
 
 </body>
