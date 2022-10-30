@@ -35,19 +35,21 @@
     <div class="imgContainer">
         <!-- <div class="img-with-text"> -->
             <img src="images/pancakes.jpg" alt="Photo of pancakes">
-                <p>Breakfast of Champions</p>
+                <p><a href="blogs.php">Breakfast of Champions</a></p>
+                
+
 </div>
 
 <div class="imgContainer">
         <!-- <div class="img-with-text"> -->
             <img src="images/healthy_lunch.jpg" alt="Photo of salad">
-            <p>Easy healthy lunch</p>
+            <p><a href="blogs.php">Easy Healthy Lunch</a></p>
                 </div>
 
 <div class="imgContainer">
         <!-- <div class="img-with-text"> -->
             <img src="images/dinner.jpg" alt="Photo of meatballs">
-            <p>Italian for dinner</p>
+            <p><a href="blogs.php">Italian for dinner</a></p>
                 </div>
 </div>
 

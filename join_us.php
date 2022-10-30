@@ -66,13 +66,17 @@
 </div>
 <!-- End Right Inputs -->
 <!-- Send Button -->
-<button type="submit" id="submit" name="submit" class="form-btn semibold" href="mailto:lucie.ortega@live.fr">Send Message</button> 
+<button type="submit" id="submit" name="submit" class="form-btn semibold" href="mailto:lucie.ortega@live.fr" onclick="revealMessage()">Send Message</button> 
+<p id="hiddenMessage" style="display:none">Thank you for your submission!</P>
+
 </div><!-- End Bottom Submit -->
 <!-- Clear -->
 <div class="clear"></div>
 </form>
 </div><!-- End Contact Form Area -->
 </div><!-- End Inner -->
+
+
 
 
 </head>
