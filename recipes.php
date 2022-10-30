@@ -23,22 +23,25 @@
 
 function getRecipeDetailsFromDatabase () {
     include_once 'db_connect.php';
-    $sql = 'SELECT id, title, name_of_dish FROM Recipes'; 
-
-
-while($row = mysqli_fetch_assoc($retval)) { 
-   echo "id :{$row['id']}  <br> ".
-      "title : {$row['title']} <br> ".
-      "name of dish : {$row['name_of_dish']} <br> ".
-      "--------------------------------<br>";
-} 
-
-echo "Fetched data successfully\n";
-
-mysqli_close($conn); 
-
+    $sql = 'SELECT id, title, name_of_dish FROM recipes'; 
+    $result = mysqli_query($conn, $sql);
+        
+    //Get each result row as an assoc array, then add details to $recipeDetails
+    $recipeDetails = array();
+    while($row = mysqli_fetch_assoc($result)){
+        array_push($recipeDetails,$row['title']);
+    }
+    return $recipeDetails;
 
 }
+
+
+
+
+
+
+
+
 
 ?>
 
